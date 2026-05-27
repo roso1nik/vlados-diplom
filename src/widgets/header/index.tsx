@@ -5,6 +5,7 @@ import { ThemeSwitcher } from '../theme'
 import { Menu } from 'lucide-react'
 import { FC, useState } from 'react'
 import { Sidebar } from '../sidebar'
+import { LanguageSwitcher } from '../language-switcher'
 
 interface HeaderProps {
     isAdminView?: boolean
@@ -31,6 +32,7 @@ export const Header: FC<HeaderProps> = () => {
                             <Bell size={20} />
                         </ActionIcon>
                     </Link> */}
+                    <LanguageSwitcher />
                     <ThemeSwitcher />
                 </div>
             </div>

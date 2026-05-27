@@ -1,14 +1,9 @@
 'use client'
 
-import { Button } from '@mantine/core'
+import { DealDashboard } from '@/widgets/deal-dashboard'
 
 const HomePage = () => {
-    return (
-        <div className="flex flex-col gap-5">
-            <h1>hello world</h1>
-            <Button>Test</Button>
-        </div>
-    )
+    return <DealDashboard />
 }
 
 export default HomePage
