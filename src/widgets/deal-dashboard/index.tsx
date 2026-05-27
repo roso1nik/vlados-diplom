@@ -460,16 +460,16 @@ export const DealDashboard = () => {
             <Tabs defaultValue="property" variant="pills" radius="xl">
                 <Tabs.List>
                     <Tabs.Tab value="property" leftSection={<Building2 size={16} />}>
-                        Property
+                        Недвижимость
                     </Tabs.Tab>
                     <Tabs.Tab value="users" leftSection={<Users size={16} />}>
-                        Users
+                        Пользователи
                     </Tabs.Tab>
                     <Tabs.Tab value="deals" leftSection={<Handshake size={16} />}>
-                        Deals
+                        Сделки
                     </Tabs.Tab>
                     <Tabs.Tab value="documents" leftSection={<FileText size={16} />}>
-                        Documents
+                        Документы
                     </Tabs.Tab>
                 </Tabs.List>
 
@@ -479,7 +479,6 @@ export const DealDashboard = () => {
                             <Group justify="space-between" align="flex-start" wrap="wrap">
                                 <div>
                                     <Title order={3}>Недвижимость</Title>
-                                    <Text c="dimmed">addProperty, updateProperty, deleteProperty</Text>
                                 </div>
                                 {editingPropertyId ? (
                                     <Badge variant="light">Редактирование</Badge>
@@ -650,7 +649,6 @@ export const DealDashboard = () => {
                             <Group justify="space-between" align="flex-start" wrap="wrap">
                                 <div>
                                     <Title order={3}>Пользователи</Title>
-                                    <Text c="dimmed">addUser, updateUser, deleteUser</Text>
                                 </div>
                                 {editingUserId ? (
                                     <Badge variant="light">Редактирование</Badge>
@@ -826,10 +824,6 @@ export const DealDashboard = () => {
                             <Group justify="space-between" align="flex-start" wrap="wrap">
                                 <div>
                                     <Title order={3}>Сделки</Title>
-                                    <Text c="dimmed">
-                                        addDeal, updateDeal, deleteDeal, nextStatus, prevStatus, cancelDeal,
-                                        canTransition, getAllowedNextStatuses, getDealProgress, getDealWithDetails
-                                    </Text>
                                 </div>
                                 {editingDealId ? (
                                     <Badge variant="light">Редактирование</Badge>

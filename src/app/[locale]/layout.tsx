@@ -20,8 +20,8 @@ const font_flobal = Inter({
 })
 
 export const metadata: Metadata = {
-    title: 'Gravitino Code Admin',
-    description: 'Gravitino Code Admin Panel',
+    title: 'Управление сделками',
+    description: 'Управление сделками для риэлторов и агентств недвижимости',
     // TODO: icons
     icons: {
         icon: '/images/ss-logo-black.svg',
